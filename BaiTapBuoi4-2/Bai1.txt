@@ -1,0 +1,21 @@
+#Bài 1
+
+#a)
+pr <- c(9000, 9500, 9400, 9400, 10000, 9500, 10300, 10200)
+
+#b)
+mean = mean(pr)
+mean
+
+Edmund = 9500
+
+if (mean == Edmund) {
+  print("Giá trị trung bình bằng ước lượng của Edmund")
+} else if (mean > Edmund) {
+  print("Giá trị trung bình lớn hơn ước lượng của Edmund")
+} else {
+  print("Giá trị trung bình nhỏ hơn ước lượng của Edmund")
+}
+
+#c)
+sum(pr > Edmund)
