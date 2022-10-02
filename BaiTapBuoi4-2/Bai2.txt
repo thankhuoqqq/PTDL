@@ -1,0 +1,12 @@
+#Bài 2
+
+#Nhập ma trận A
+A = matrix(c(1, 5, 3, -1), nrow = 2)
+A
+#Nhập ma trận B
+B = matrix(c(7, 3, 3, 7), nrow = 2)
+B
+
+#Tìm C sao cho A*C=B
+C = solve(A) %*% B
+C
