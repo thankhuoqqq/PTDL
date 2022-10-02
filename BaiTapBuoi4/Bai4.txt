@@ -1,1 +1,38 @@
-#Bài 4
+#Bài 4: Ma trận
+
+#Nhập ma trận
+#Ma trận A
+a <- c(2, 1, 5, 4, 5, 3, 9, 2, 3, 9, 4, 8, 4, 3, 8, 1)
+A = matrix(a, nrow = 4)
+A
+#Ma trận B
+b <- c(3, 4, 7, 9, 9, 1, 2, 2, 5, 4, 2, 8, 1, 2, 4, 3)
+B = matrix(b, nrow = 4)
+B
+
+#1) Lấy ra phần tử cột 3, hàng 2 của A
+A[2, 3]
+
+#2) In ra các phàn tử hàng 2 của A
+A[2,]
+
+#3) In ra các phần tử cột 3 của A
+A[, 3]
+
+#4) In ra các phần tử trừ hàng 2 của B
+B[-2,]
+
+#5) In ra các phần tử trừ cột 2 của B
+B[,-2]
+
+#6) In ra ma trận chuyển vị của A
+t(A)
+
+#7) Tính định thức của B
+det(B)
+
+#8) Tìm ma trận nghịch đảo của A
+solve(A)
+
+#9) Tích của A và B
+A %*% B
