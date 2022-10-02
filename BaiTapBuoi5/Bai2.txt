@@ -1,0 +1,22 @@
+#Bài 2
+
+#Đọc tệp Product.csv
+setwd("D:\\PTDL")
+dat = read.csv("Product.csv", header = TRUE)
+View(dat)
+
+#a)
+dat1 = subset(dat, dat$City == "Boston")
+View(dat1)
+
+#b)
+dat2 = subset(dat, dat$Product == "Carrot")
+View(dat2)
+sumTotalPriceCarrot = sum(dat2$TotalPrice)
+sumTotalPriceCarrot
+
+#c)
+dat3 = subset(dat, dat$Product == "Carrot" & dat$City == "Boston")
+View(dat3)
+meanQuantityCarrotBoston = mean(dat3$Quantity)
+meanQuantityCarrotBoston
