@@ -1,1 +1,28 @@
 #Bài 2
+
+#Nhập vector x
+x <- c(31, 52, 37, 21, 24, 19, 23, 43, 21)
+
+#1) Tính tổng các giá trị của x
+sum(x)
+
+#2) Tính tổng bình phương các giá trị của x
+sum(x^2)
+
+#3) Tính giá trị trung bình của x
+mean(x)
+
+#4) Tính số phần tử của x
+length(x)
+
+#5) Sắp xếp các phần tử của x theo thứ tự tăng dần
+sort(x)
+
+#6) Sắp xếp các phần tử của x thep thứ tự giảm dần
+sort(x, decreasing = TRUE)
+
+#7) Tính giá trị lớn nhất của x
+max(x)
+
+#8) Tính giá trị nhỏ nhất của x
+min(x)
