@@ -1,0 +1,17 @@
+#Bài 3
+
+#a)
+time <- c(17, 16, 20, 24, 22, 15, 21, 15, 17, 22)
+min(time)
+mean(time)
+max(time)
+
+#b)
+time[4] = 18
+
+#c)
+count1 = sum(time > 20)
+count1
+
+count2 = sum(time <= 17)
+percent_count2 = count2*100/length(time)
